@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <!-- Inclua a biblioteca Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+
+        .welcome-text {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .buttons-container {
+            text-align: center;
+        }
+
+        .button {
+            display: block;
+            margin: 10px;
+            padding: 15px;
+            font-size: 16px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="welcome-text">
+            Bem-vindo, atleta
+        </div>
+        <a href="#sair" class="logout-icon"><i class="fas fa-sign-out-alt"></i></a>
+    </div>
+
+    <div class="buttons-container">
+        <a href="#sua-dieta" class="button">Sua Tabela de Dieta</a>
+        <a href="#seu-treino" class="button">Seu Treino</a>
+        <a href="#duvidas" class="button">Dúvidas? Fale com Seu Personal</a>
+    </div>
+
+</body>
+</html>
+ 
